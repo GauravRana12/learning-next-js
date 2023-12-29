@@ -25,9 +25,4 @@ Feel free to explore each app's directory for detailed documentation and code.
 
 The main purpose of this repository is to document my learning journey, showcase my progress, and serve as a reference for others who are also diving into Next.js.
 
-## How to Use
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/learning-next-js.git
