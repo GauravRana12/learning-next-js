@@ -12,11 +12,11 @@ const AuthButtons = () => {
           <Link href='/startup/create'>
             <span className='font-semibold'>Create</span>
           </Link>
-          <button onClick={() => signOut()}>Sign out</button>
+          <button className='text-red-700 font-semibold cursor-pointer' onClick={() => signOut()}>Logout</button>
           <Link href="/">{session?.user?.name}</Link>
         </>
       ) : (
-        <button onClick={() => signIn('github')}>Login</button>
+        <button className='font-semibold ' onClick={() => signIn('github')}>Login</button>
       )}
     </div>
   )
